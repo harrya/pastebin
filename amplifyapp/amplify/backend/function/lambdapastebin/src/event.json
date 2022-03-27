@@ -1,0 +1,11 @@
+{
+  "resource": "/text",
+  "path": "/text",
+  "httpMethod": "POST",
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": null,
+  "body": "{\"text\":\"Hello from the frontend!\"}",
+  "isBase64Encoded": false
+}

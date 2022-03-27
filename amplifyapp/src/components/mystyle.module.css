@@ -1,0 +1,16 @@
+.title {
+  color: DodgerBlue;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.root {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  margin-top: 16px;
+}
