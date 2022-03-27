@@ -24,7 +24,7 @@ const Home = (props) => {
 
   return (
     <div className={styles.root}>
-      <h1 className={styles.title}>Submit text anonomously!</h1>
+      <h1 className={styles.title}>Submit text anonymously!</h1>
       <TextField
         label="Text to submit"
         multiline
