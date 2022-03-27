@@ -14,9 +14,7 @@ const Home = (props) => {
 
   const submitText = () => {
     const payload = { body: { text: text } };
-    console.log("submitting", payload);
     API.post("apipastebin", "/text", payload).then((response) => {
-      console.log("responee", response);
       navigate(`text/${response}`);
       // encode base64?
       // respond with the unique id

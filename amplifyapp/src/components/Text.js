@@ -10,8 +10,6 @@ const Text = (props) => {
   const [text, setText] = useState("");
   const navigate = useNavigate();
 
-  console.log("hello");
-
   useEffect(() => {
     // fetch text with id
     API.get("apipastebin", `/text/${params.textId}`)
