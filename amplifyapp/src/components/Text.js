@@ -1,10 +1,8 @@
 import React from "react";
-import { Routes, Route, useParams } from "react-router-dom";
-import Button from "@mui/material/Button";
+import { useParams } from "react-router-dom";
 
 import { API } from "aws-amplify";
 import { useEffect, useState } from "react";
-import { StepContext, TextField } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
 const Text = (props) => {

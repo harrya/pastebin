@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import styles from "./mystyle.module.css";
 
 import Button from "@mui/material/Button";
@@ -7,7 +7,6 @@ import { useNavigate } from "react-router-dom";
 import { API } from "aws-amplify";
 import { useState } from "react";
 import { TextField } from "@mui/material";
-import { style } from "@mui/system";
 
 const Home = (props) => {
   const [text, setText] = useState("");
